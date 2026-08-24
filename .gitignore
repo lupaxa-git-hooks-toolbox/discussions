@@ -1,14 +1,19 @@
-# Private Superpowers specs/plans (symlink into Lupaxa cursor-docs vault)
+# OS
+.DS_Store
+
+# Cursor
+.cursor/
+.superpowers/
+.worktrees/
 cursor-docs
 
-# makefile-skills checkout
+# Make
 .makefiles/
 
-# Superpowers local state
-.superpowers/
-
-# Python / tooling caches (harmless even for docs-only)
+# MkDocs
 site/
+
+# Python
 .venv/
 __pycache__/
 .mypy_cache/
